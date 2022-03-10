@@ -44,6 +44,7 @@ $ npm start
 ### Backend
 
 - Backend will be running on port 5000
+- Please connect with put your own MongoDB Host information into .env file to connect successfully. Otherwise app won't run.
 
 ```
 $ cd backend
