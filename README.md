@@ -47,6 +47,15 @@ $ npm start
 - Please connect with put your own MongoDB Host information into .env file to connect successfully. Otherwise app won't run.
 
 ```
+DEV_DB_HOST=[MONGODB_HOST]
+#DEV_DB_PORT=27017
+DEV_DB_NAME=[MONGODB_DB_NAME]
+DEV_DB_USER=[MONGODB_DB_USER]
+DEV_DB_PASSWORD=[MONGODB_DB_PASSWORD]
+
+```
+
+```
 $ cd backend
 $ npm install
 $ npm start
